@@ -1,0 +1,146 @@
+1 what is HTML and why it is important
+Ans :- HTML(hypertext markup language) it is the skeleton of the web page it define the basic structrue of the web page
+
+2 Explain the structure of the html document
+Ans :-
+<html>
+    <head>
+        <Title></Title>
+        <style></style>
+    </head>
+    <body>
+    </body>
+</html>
+
+3 What is the difference of the <div> and <span>
+Ans :- <div> tag is the block element and <span> is the inline element means that the <div> tag can get the full width while <span>
+       tag can get only required width
+
+
+4 What is the purpose of the <!DOCTYPE html> declaration?
+Ans :-  it tell the browser that the running file document is the html type
+
+5 What are semantic HTML tags? Give examples
+Ans :- Semantic tag are announced in html5 such as <header></header> <footer></footer> <nav></nav> etc
+
+6 Explain the difference between HTML tags and HTML attributes.
+Ans :- Html tags are like <div></div> <span></span> and attributes are use inside it like 'alt','for','id' etc
+
+7. What is the purpose of the <head> tag?
+Ans :- <head> tag is the important tag in html that contains the info of the page it contains <title></title>
+    <meta> tag <Link></Link> etc
+
+8. What is the <meta> tag used for?
+Ans:- <meta> tag  contains the description of the web page also resposive details like view port etc
+
+9. What is the difference between <strong> and <b> tags?
+Ans :- Both do the same thing that is bold the tag but  <strong> add the semantic value
+
+10. What is the difference between ordered and unordered lists?
+Ans :- ordered list define by using <ol></ol> tag it consist numbering in unordered lists contains bullets define by using <ul></ul>
+
+11. What are block-level and inline elements?
+Ans :- block-level element uses the full width while the inline element use the required width
+
+12. What is the use of the <form> tag? Mention commonly used form input types
+Ans :- <form> tag are use to collect use information and tags use inside the form input type are text,number,tel,password etc
+    
+13. What are self-closing tags? Give examples
+Ans :- selft-closing tags are tags that dosent required the closing tag like <hr> <img> <input> etc
+
+14. What is the purpose of the alt attribute in an <img> tag?
+Ans :- alt is the attribute use in img tag that can show the  textual information about the image if the image failed to load
+
+15. Explain the difference between <link> and <script></script>  . ?
+Ans :- <link> tag are use to import the css file or font styling file etc but <script></script> tag is use to import the js file 
+
+16. What is an iframe? How is it used?
+Ans :- iframe tag is used to import the preview of the website to another website and syntax of iframe tag<iframe src="" frameborder="0"></iframe>
+
+17. What is the difference between id and class attributes?
+Ans :- id is the unique attribute for each tag and use and selector while  the class is also the selector but can be use for multiple
+       tags 
+
+18. What is the use of the <table> tag? Name the table-related tags
+Ans :- <table> tag is use to show the data is well structured syntax for this is 
+    <table>
+        <tr>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+
+19. What are HTML entities? Give examples.
+Ans :- html entities are use to show the special text like for this '<' &lt ,&copy for copyright
+
+20. What is localStorage and sessionStorage in HTML5?
+Ans :- localStorage and sessionStorage are use to store the data in browser the localStorage data can be access through all browser
+ and tab at the same port or url but in sessionStorage it can access data only that tab
+
+
+
+<!-- Css Test -->
+
+1. What is CSS and why do we use it?
+Ans :- CSS stands for cascading style sheet it is use to make the website looks attractive and resposive
+
+2. What are the three ways to apply CSS to a webpage?
+Ans :- there are three ways to appy css is inline css internal css and extrenal css 
+        syntax for this are <div style="background-color: black;"></div>
+        <style>
+            body{
+                background-color: yellow;
+            }
+        </style>
+        <link rel="stylesheet" href="./style.css">
+        respectively
+
+
+3. What is the difference between class selector and id selector?
+Ans :- class selector are define use '.' and can be use by multiple tags while id selector can use '#' and can use by one tag only
+
+4. What are CSS box model properties?
+Ans :- box model are content->padding->boder->margin paddign provide the space between boder and and content while margin provide the space between border and other element
+
+5. Explain padding, margin, and border.
+Ans :- this are the css box model border lie between padding and margin both are providing the space
+
+
+6. What is the difference between display: block, inline, and inline-block?
+Ans :- display block can take the full width display inline takes only required  width and display inline-block? can take the full width provided with height and width
+
+7. What is position property in CSS? Explain its types.
+Ans :- position property use to adjust the element as per need there are 4 main tyes of position property 
+       1 relative
+       2 absolute
+       3 sticky
+       4 fixed
+
+8. What is the difference between absolute and relative positioning?
+Ans :- absolute can take the position according to parent div and relative can take as per the root position 
+
+9. What is z-index in CSS?
+Ans :- z-index define that which div will give the prefrence to show upward
+
+10. What are pseudo-classes? Give examples.
+Ans :- pseudo-classes are includes :hover , :focus, n-child
+11. What are pseudo-elements? Give examples.
+Ans :- pseudo-elements are like :before ,:after
+
+12. What is the use of flexbox in CSS?
+Ans :- flex box are use to make the  web page resposive it is the one dimnesional
+
+13. What is CSS Grid?
+Ans :-it is use to make the element in the form of rows and column?
+
+14. Explain media queries with example.
+Ans :- media queries are use to make the web page resposive across all the platform
+
+15. What is the difference between visibility: hidden and display: none?
+Ans :- visibility:hidden can make the element hidden but space will be there but in none the there is no space left it toatlly remove the element
+
+16. What is overflow in CSS?
+Ans :- overflow mean that if the div is overflow that can manage by scroll effect or hidden 
+

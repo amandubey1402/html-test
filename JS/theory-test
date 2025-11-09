@@ -1,0 +1,58 @@
+1 What is a 2D array in JavaScript? How can you create one?
+Ans :- 2d array is array that contain the arraa inside the array in mathematical term it called as matrix
+
+2 How do you access elements in a 2D array?
+Ans :- to  access the elements inside the 2d array we have to use the nested loops so that we can access every 
+       single items in array
+
+3 What are arrays of objects used for in JavaScript
+Ans :- Array of objects means contains the objects inside the array
+
+for example [{
+    name:"Aman",
+    age:22
+}]
+
+4 How can you find an object in an array based on a specific property value ?
+Ans :- for access the specific property value first we need to map the array then we have to called that property by there 
+key
+
+7 What does the map() function do in JavaScript
+Ans :-  map function is use to ittrate the elements from the array and return the array
+
+8 What is the purpose of the filter() function?
+Ans :- it is use to filter the data based on the condition provide if the condition map then it provide that filtered data only
+
+9. How is the reduce() method different from map() and filter()?
+Ans :- In reduce is use to provide the single intergre value is use to add or subtrcation or mathematical operation
+it no provide the array
+
+10. What is JSON and how is it related to JavaScript objects?
+Ans :- JSON is form of data like an object but here there is both side inverted commas like
+"key":"value"
+
+11 How do you find the length of a string in JavaScript?
+Ans :-  to  find the length of the given string use have use length function example string.length()
+
+12 What is the difference between slice(), substring(), and substr()?
+Ans :- splice method is use to cut the part of string it require to parameter start and endparameter
+
+13 How can you convert a string to an array
+Ans :-  to  conver the string in an array we can use the split method which helps to convert the string into array
+
+14 What does toUpperCase() and toLowerCase() do?
+Ans :- toLowerCase() method is use to captalize the string and toLowerCase() is use to decaptalize the string
+
+15 What is template literal and how is it useful for string formatting?
+Ans :- template literal it is also called and backticks which allow us to make the string dynamic in other words we can use the 
+varibles in the string by using this syntax example `${}`
+
+16. Explain how to loop through an array of objects to display a particular property.
+Ans :- synatx
+const data = [{
+    name:"aman",
+    gender:"male"
+}]
+for(let i=0 ;i<data.length;i++>){
+    console.log(i.name)
+}
